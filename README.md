@@ -65,7 +65,7 @@ The script will:
 
 ## Output
 
-All ready-to-use files are located in the `out/` folder:\
+All ready-to-use files are located in the `out/` folder:
 
 ````01_framework_and_law.md
     02_application_procedure.md
