@@ -24,19 +24,19 @@ The result is a set of topic-based Markdown files with up-to-date information, u
 
 1. Clone the repository:
 
-   ````bash
+   ```bash
    git clone <repo_url>
-   cd tour_guide_scraper```
+   cd tour_guide_scraper
 
-   ````
+   ```
 
 2. Create and activate a virtual environment:
 
-   ````python -m venv .venv
+   ```python -m venv .venv
    source .venv/bin/activate   # Linux/macOS
-   .venv\Scripts\activate      # Windows```
+   .venv\Scripts\activate      # Windows
 
-   ````
+   ```
 
 3. Install dependencies:\
    `pip install -r requirements.txt`
@@ -67,11 +67,12 @@ The script will:
 
 All ready-to-use files are located in the `out/` folder:
 
-````01_framework_and_law.md
+```01_framework_and_law.md
 02_application_procedure.md
 ...
-07_faq_and_contacts.md```
+07_faq_and_contacts.md
 
+```
 
 Each file contains:
 
@@ -83,4 +84,3 @@ Each file contains:
 
 - The scraper uses Google ADK (`gemini-2.5-pro`) and DuckDuckGo for search.
 - Sources are filtered by domain; priority is given to official websites.
-````
