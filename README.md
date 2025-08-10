@@ -68,9 +68,10 @@ The script will:
 All ready-to-use files are located in the `out/` folder:
 
 ````01_framework_and_law.md
-    02_application_procedure.md
-    ...
-    07_faq_and_contacts.md```
+02_application_procedure.md
+...
+07_faq_and_contacts.md```
+
 
 Each file contains:
 
@@ -82,5 +83,4 @@ Each file contains:
 
 - The scraper uses Google ADK (`gemini-2.5-pro`) and DuckDuckGo for search.
 - Sources are filtered by domain; priority is given to official websites.
-- Content is accurate at the time of scraping; re-run the pipeline for updates.
 ````
